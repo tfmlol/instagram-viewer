@@ -1,0 +1,81 @@
+html,body{
+	margin:0;
+	/*height:100%;*/
+	width:100%;
+	/*overflow: auto;*/
+}
+.image-container{
+	/*height:110%;
+	width:110%;
+	position: absolute;*/
+}
+.instagram-pics{
+	font-size:0;
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+.instagram-pics li{
+	width:20%;
+	height:250px;
+	display:inline-block;
+	vertical-align: top;
+	font-size:1rem;
+}
+
+.search{
+	position:fixed;
+	left:0;
+	top:0;
+	padding:30px;
+	background:rgba(255,255,255,0.7);
+	width:300px;
+	border-radius:10px;
+	border-top-left-radius: 0px;
+	z-index: 10;
+}
+#tag-search button{
+	opacity:0;
+	height:0;
+
+}
+.blur{
+	 -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    opacity: 0.7;
+    webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.blur:hover{
+	-webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+	webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+}
+
+input{
+	  width: 80%;
+  margin-bottom: 0px;
+  padding: 10px;
+  padding-left: 15px;
+  font-size: 13px;
+  font-family: 'Open Sans', "Helvetica", "Arial", sans-serif;
+  border: 1px solid #d6d6d6;
+  color: #808080;
+  border-radius: 2px;
+  padding: 12px;
+  padding-left: 20px;
+}
